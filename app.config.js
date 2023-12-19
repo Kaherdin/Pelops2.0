@@ -54,9 +54,9 @@ export default {
     extra: {
       API_URL: process.env.API_URL,
       GOOGLE_API_KEY: process.env.GOOGLE_API_KEY,
-      eas: {
-        projectId: "622f7be2-6dd2-444b-9f42-44114a6abdee",
-      },
+      // eas: {
+      //   projectId: "622f7be2-6dd2-444b-9f42-44114a6abdee",
+      // },
     },
   },
 };
