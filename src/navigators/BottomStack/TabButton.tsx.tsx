@@ -1,7 +1,7 @@
 import { Icon } from "components/Icon";
 import { useEffect, useRef, useState } from "react";
-import { TouchableOpacity, ViewStyle } from "react-native";
-import { View } from "react-native-animatable";
+import { TouchableOpacity, ViewStyle, View } from "react-native";
+
 import * as Animatable from "react-native-animatable";
 import { buttonSize, color } from "theme";
 

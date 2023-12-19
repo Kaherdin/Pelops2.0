@@ -7,11 +7,12 @@ import { Scroll } from "components/containers/Scroll";
 import { YStack } from "components/containers/Stack";
 import { format } from "date-fns";
 import { useState } from "react";
-import { View } from "react-native-animatable";
+
 import { ThemeColorType } from "theme";
 
 import ColorPicker from "./ColorPicker";
 import { INFINIT_PARTICIPANTS } from "constants/global";
+import { View } from "react-native";
 
 const initialValues = {
   input: "",
